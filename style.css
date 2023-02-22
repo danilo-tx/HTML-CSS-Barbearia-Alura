@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.banner {
+	width: 100%;
+}
+
+.container-sobre {
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container-beneficios {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.container-lista-img {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container-lista-img ul {
+	list-style: none;
+}
+
+
+.beneficios-img {
+	width: 50%;
+}
