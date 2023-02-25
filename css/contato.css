@@ -1,0 +1,75 @@
+main {
+    min-height: 56vh;
+    background: linear-gradient(#f4f4f4, #a0a0a0);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+form label, legend {
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+form input, form textarea, select {
+    margin-bottom: 24px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 1px solid #282828;
+}
+
+.aceita-novidades {
+    font-size: 20px;
+}
+
+.aceita-novidades input {
+    margin: 0;
+}
+
+.checkbox {
+    margin: 24px 0;
+    cursor: pointer;
+}
+
+form  {
+    margin: 0;
+}
+
+.contato, .atendimento {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.contato input {
+    margin: 0 8px 0 0;
+}
+
+.contato label {
+    font-size: 16px;
+}
+
+.container-table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    padding-bottom: 24px;
+}
+
+thead {
+    font-weight: bold;
+    background: #282828;
+    color: #f4f4f4;
+}
+
+th, td {
+   border: 1px solid #000000;
+   padding: 8px 16px;
+}

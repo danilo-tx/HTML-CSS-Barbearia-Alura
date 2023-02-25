@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Barbearia Alura</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -19,8 +19,8 @@
 		<nav>
 			<ul id="menu">
 				<li><a href="index.html">Home</a></li>
-				<li><a href="#">Produtos</a></li>
-				<li><a href="#">Agenda</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="contato.html">Contato</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -57,27 +57,25 @@
 		<div class="video">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
-
-		<footer>
-			<div class="container-footer">
-				<img class="logo-footer" src="img/skull-logo.png" alt="logo da barbearia">
-				<p>&copy; DaniloTx¹³ 2023</p>
-			</div>
-		</footer>
 	</main>
+	<footer>
+		<div class="container-footer">
+			<img class="logo-footer" src="img/skull-logo.png" alt="logo da barbearia">
+			<p>&copy; DaniloTx¹³ 2023</p>
+		</div>
+	</footer>
 	<script>
 		function clickMenu() {
-				if(menu.style.display == 'flex') {
-					menu.style.display = 'none';
-					xButton.style.zIndex = '0';
-					hamburguer.style.zIndex = '1';
-				} else {
-					menu.style.display = 'flex';
-					xButton.style.zIndex = '1';
-					hamburguer.style.zIndex = '0';
-				}
+			if(menu.style.display == 'flex') {
+				menu.style.display = 'none';
+				xButton.style.zIndex = '0';
+				hamburguer.style.zIndex = '1';
+			} else {
+				menu.style.display = 'flex';
+				xButton.style.zIndex = '1';
+				hamburguer.style.zIndex = '0';
+			}
 		}
-		
 	</script>
 </body>
 </html>
