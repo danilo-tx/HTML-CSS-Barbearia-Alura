@@ -71,11 +71,14 @@ header {
 	background-color: #f4f4f4;
 }
 
+.container-sobre h2 {
+	margin: 16px 0;
+}
+
 .utensilios {
 	width: 112px;
-	border-radius: 8px;
-	float: left;
-	margin: 0 8px 8px 0;
+	border-radius: 54px;
+	margin: 0 auto;
 }
 
 .container-sobre p {
